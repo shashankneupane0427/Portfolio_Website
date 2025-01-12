@@ -2,7 +2,9 @@ import React from 'react'
 import Cards from './Cards'
 import foodie from '../assets/foodie.png'
 import realestate from '../assets/realstate.png'
-
+import eattendance from '../assets/e-attendance.png'
+import taskit from '../assets/taskit.png'
+import amazon from '../assets/amazon.png'
 
 const Projects = () => {
 
@@ -22,23 +24,23 @@ const Projects = () => {
       github: ""
     },
     {
-      title: 'YouTube Clone',
-      desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
-      image: '',
+      title: 'E-attendance',
+      desc: 'A attendance system built with vanilla JavaScript, HTML and CSS.',
+      image: eattendance,
       live: "",
       github: ""
     },
     {
-      title: 'Webelite builder',
-      desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
-      image: '',
+      title: 'Amazon Clone',
+      desc: 'An E-commerce website built with vanilla JavaScript, HTML and CSS with cart functionality.',
+      image: amazon,
       live: "",
       github: ""
     },
     {
-      title: 'Super Car',
-      desc: 'Working with Webelite Builders was a seamless experience. They brought our vision to life with a modern, responsive website.',
-      image: '',
+      title: 'Taskit',
+      desc: 'A Todo list app built with React and Tailwind CSS with local storage.',
+      image: taskit,
       live: "",
       github: ""
     },
