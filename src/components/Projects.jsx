@@ -3,7 +3,7 @@ import Cards from './Cards'
 import foodie from '../assets/foodie.png'
 import realestate from '../assets/realstate.png'
 import eattendance from '../assets/e-attendance.png'
-import taskit from '../assets/taskit.png'
+import taskit from '../assets/Taskit.png'
 import amazon from '../assets/amazon.png'
 
 const Projects = () => {
