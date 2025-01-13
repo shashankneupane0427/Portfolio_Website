@@ -1,6 +1,6 @@
 import React from 'react'
 import Cards from './Cards'
-import foodie from '../assets/foodie.png'
+import ccn from '../assets/ccn.png'
 import realestate from '../assets/realstate.png'
 import eattendance from '../assets/e-attendance.png'
 import taskit from '../assets/Taskit.png'
@@ -10,39 +10,40 @@ const Projects = () => {
 
   const projectJson = [
     {
+      title: 'Climate Care Network',
+      desc: 'Climate Care Network (CCN) is the official website of the organization Climate Care Network, dedicated to actively raising awareness about climate change in the modern era.',
+      image: ccn,
+      live: "https://project-climate-vert.vercel.app/",
+      github: "https://github.com/shashankneupane0427/Project-Climate"
+    },
+    {
       title: 'Ghar Bazar',
       desc: 'A fullstack Real Estate website built with React, Node.js, Express and MongoDB.',
       image: realestate,
-      live: "",
-      github: ""
+      live: "https://ghar-bazar.vercel.app/",
+      github: "https://github.com/shashankneupane0427/Ghar-Bazar"
     },
-    {
-      title: 'Foodie',
-      desc: 'A Food Odering website landing page built with React and Tailwind CSS.',
-      image: foodie,
-      live: "",
-      github: ""
-    },
+    
     {
       title: 'E-attendance',
       desc: 'A attendance system built with vanilla JavaScript, HTML and CSS.',
       image: eattendance,
-      live: "",
-      github: ""
+      live: "https://e-attendance-hajir.vercel.app/",
+      github: "https://github.com/shashankneupane0427/E-Attendance-Website"
     },
     {
       title: 'Amazon Clone',
       desc: 'An E-commerce website built with vanilla JavaScript, HTML and CSS with cart functionality.',
       image: amazon,
-      live: "",
-      github: ""
+      live: "https://amazon-shopping-javascript-project.vercel.app/",
+      github: "https://github.com/shashankneupane0427/Ecommerce_Website"
     },
     {
       title: 'Taskit',
       desc: 'A Todo list app built with React and Tailwind CSS with local storage.',
       image: taskit,
-      live: "",
-      github: ""
+      live: "https://taskit-smoky.vercel.app/",
+      github: "https://github.com/shashankneupane0427/Taskit"
     },
     ];
 
